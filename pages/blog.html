@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Link a CSS personalizado -->
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lemon&family=Libre+Baskerville&family=Noto+Serif:wght@400;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+
+  <title>Blog</title>
+</head>
+
+<body class="body">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg" style="background-color: #FFEDDF;">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <a class="navbar-brand" href="#">
+        <img src="../img/logo.jpg" alt="logo" class="logo" />
+      </a>
+      <button class="navbar-toggler ms-auto me-3 mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" style="color: #CA7A31; font-weight: bold;" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #CA7A31; font-weight: bold;" href="sobre.html">Sobre mí</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="color: #CA7A31; font-weight: bold;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Servicios
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" style="color: #4E290D;" href="servicios.html">Asesoría de Colorimetría</a></li>
+            <li><a class="dropdown-item" style="color: #4E290D;" href="servicios.html">Personal Stylist</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" style="color: #4E290D;" href="servicios.html">Personal Shopper</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #CA7A31; font-weight: bold;" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #CA7A31; font-weight: bold;" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Blog de moda y estilo</h1>
+  </header>
+
+  <!-- CONTENIDO -->
+  <main>
+    <section class="blog-section">
+      <h2>Cómo elegir los colores ideales para tu ropa</h2>
+      <img src="../img/imagen-colores.jpg" alt="Cómo elegir colores" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi nobis dolorem cupiditate voluptatum est, fuga nihil illum quo magnam iste facere asperiores, ex rerum ratione voluptas, molestias animi saepe.
+      </p>
+    </section>
+
+    <!-- BOTÓN DE CONSULTA -->
+    <div class="boton-1">
+      <a href="contacto.html" class="boton">Agenda una consulta</a>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <h3>&copy; Todos los derechos reservados. 2025 Asesoría de Imagen</h3>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
