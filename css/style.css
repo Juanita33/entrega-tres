@@ -22,11 +22,43 @@ h1, h2, p {
     color: #4E290D;
     margin: 10px 20px;
   }
-  
-  .logo {
+
+  /* navbar */
+
+  .navbar{
+    background-color: #FFEDDF;
+  }
+  .navbar-brand .logo{
     width: 250px;
     height: auto;
+
   }
+
+.nav-link {
+  color: #CA7A31;
+  font-weight: bold;
+}
+
+.nav-link:hover,
+.navbar .nav-link.active {
+  color: #4E290D;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+}
+
+.dropdown-item {
+  color: #4E290D;
+}
+
+.dropdown-item:hover {
+  background-color: #f5e8dc;
+  color: #CA7A31;
+}
+  
+  
+  
   /* estilos de header  */
 /* Título principal */
 header h1{
