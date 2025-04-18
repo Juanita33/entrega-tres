@@ -1,0 +1,73 @@
+ /* navbar */
+
+ .navbar{
+    background-color: $color-fondo;
+  }
+  .navbar-brand .logo{
+    width: 250px;
+    height: auto;
+
+  }
+
+.nav-link {
+  color: $color-titulo;
+  font-weight: bold;
+}
+
+.nav-link.active{
+    color: $color-titulo;
+  font-weight: bold;
+  background-color: $color-fondo;
+
+}
+
+
+
+    
+.nav-link:hover,
+.navbar .nav-link.active {
+    background-color: darken($color-fondo, 1%);
+    
+}
+
+.dropdown-menu {
+  background-color: $color-dropdown;
+}
+
+.dropdown-item {
+  color: $color-titulo;
+}
+
+.dropdown-item:hover {
+  background-color: darken($color-subtitulo, 1%);
+  
+}
+/* Flex para navegación principal */
+/* Navbar */
+.navbar-nav {
+    display: flex;
+    gap: 20px;
+  }
+  .navbar-nav .nav-link {
+    display: inline-block;
+    font-size: $letra-nav;
+    color: $color-titulo;
+    font-weight: bold;
+    text-align: center;
+    min-width: 140px;
+    padding: 8px 16px;
+    border: 2px solid $color-subtitulo;
+    border-radius: 8px;
+    background-color: $color-fondo;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: $color-subtitulo;
+  }
+   /* --- Estilo del botón hamburguesa --- */
+   .navbar-toggler {
+    border: none;
+    padding: 10px;
+    font-size: $letra-navtoggler;
+  }

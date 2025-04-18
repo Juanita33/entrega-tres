@@ -1,0 +1,49 @@
+/* Sección de contacto */
+.contacto {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contacto img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+  }
+  
+  /* Formulario */
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .formulario label {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .formulario input,
+  .formulario textarea {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  .formulario button {
+    padding: 10px 20px;
+    background-color: $color-subtitulo;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formulario button:hover {
+    background-color: $color-subtitulo;
+  }

@@ -1,0 +1,98 @@
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    
+  }
+
+  /* Contenedor de imagenes en Grid 2x2 */
+  .contenedor {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+  justify-items: center;
+  
+}
+  .contenedor img {
+    width: 400px;
+    height: 400px;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    
+  }
+   /* Sección de servicios */
+.servicios-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: $tipo-letra;
+    
+  }
+  
+  /* Cada servicio */
+  .servicio {
+    width: 90%;
+    max-width: 900px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 2px solid $color-subtitulo;
+    border-radius: 12px;
+    background-color: $color-fondo
+    box-shadow 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+
+.servicio h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: $color-subtitulo;
+  }
+  
+  .servicio p {
+    font-size: $letra-parrafo;
+    margin-bottom: 15px;
+  }
+  
+  /* Imágenes dentro de .servicio */
+  .imagen-servicio {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+  /* Contenedor del blog */
+.blog-section {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: $tipo-letra;
+    color: $color-subtitulo;
+
+  }
+  
+  /* Imagen del artículo */
+  .blog-section img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+    
+  }
+  /* imagen sobre mi*/
+  .brown img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+    
+    
+  }
+  
