@@ -162,9 +162,18 @@ body {
 
 .dropdown-menu {
   background-color: #fff;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-item {
+  color: #4E290D;
+  font-weight: 500;
+  font-family: "noto Serif", serif;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: rgb(234.2204545455, 198.2363636364, 164.2795454545);
   color: #4E290D;
 }
 

@@ -30,13 +30,29 @@
     
 }
 
+
 .dropdown-menu {
   background-color: $color-dropdown;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 4px 8px rgba(0, 0,0,0.1);
+  
+  
 }
 
 .dropdown-item {
   color: $color-titulo;
+  font-weight: 500;
+  font-family: "noto Serif", serif;
+
+  &:hover,
+  &:focus{
+    background-color: lighten($color-subtitulo, 35%);
+    color: $color-titulo;
+  }
 }
+  
+
 
 .dropdown-item:hover {
   background-color: darken($color-subtitulo, 1%);
